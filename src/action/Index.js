@@ -8,8 +8,6 @@ export const addTodo = (data) => {
     }
 }
 
-
-
 export const removeTodo = (data) => {
     return {
         type: "REMOVE_TO_DO",
